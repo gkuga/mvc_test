@@ -1,0 +1,177 @@
+.reset {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+ul li blockquote, dl, dd, h1, h2, h3, h4, h5, h6, figure, p, pre {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+html {
+}
+
+body {
+    margin: 0px;
+    color: #292F33;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+html, body, #doc {
+    height: 100%;
+}
+
+#header-container {
+    height: 270px;
+}
+
+.header {
+    height: 270px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: #FFF;
+    border-bottom: 1px solid #E1E8ED;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.header-top {
+    position: relative;
+    height: 210px;
+    width: 100%;
+}
+
+.header-img {
+    height: 210px;
+    width: 100%;
+    background-size: 100% auto;
+    position: absolute;
+}
+
+.header-buttons {
+    color: #FFF;
+    margin: 0px auto;
+    padding-top: 20px;
+    text-align: right;
+    width: 1100px;
+}
+
+.icon {
+    float: left;
+    position: relative;
+    top: 10px;
+    color: #FFF;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button {
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+    padding: 10px 35px;
+    box-sizing: border-box;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-feature-settings: inherit;
+    font-kerning: inherit;
+    font-synthesis: inherit;
+    font-variant: inherit;
+    line-height: normal;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login {
+    text-decoration: none;
+    margin-left: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 35px;
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0% 0%;
+}
+
+.header-content {
+    top: 0px;
+    position: relative;
+    text-align: center;
+    width: 680px;
+    margin: 0px auto;
+}
+
+.header-title {
+    color: #FFF;
+    font-weight: 100;
+    line-height: 48px;
+    margin-bottom: -5px;
+    font-size: 32px;
+}
+
+.header-blurb {
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 28px;
+    opacity: 0.7;
+    transition: opacity 300ms linear 0s;
+}
+
+#nav {
+    width: 1000px;
+    font-size: 0px;
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+}
+
+.nav-item {
+    align-items: center;
+    flex: 1 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.nav-itemInner {
+    border-right: 1px solid #E1E8ED;
+}
+
+.nav-itemName {
+    color: #55ACEE;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 21px 35px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    height: 60px;
+    text-decoration: none !important;
+    background: transparent none repeat scroll 0% 0%;
+}
+
+.content {
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    padding: 56px 14px 15px;
+}
